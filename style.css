@@ -17,7 +17,7 @@ body{
 .group_scrollingBanner { 
    position: relative;
    width: 100%;
-   height: 100vh;
+   height: 30vh;
    display: flex;
    overflow: hidden;
  }
