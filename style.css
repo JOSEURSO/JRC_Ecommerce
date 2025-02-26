@@ -1,0 +1,73 @@
+/* 
+   Creator           : Coding's Time
+   Youtube Channel   : https://www.youtube.com/channel/UC6dnKqrImGWqMb9ty1n0Ziw
+   Github Profile    : https://github.com/codingstime
+ */
+
+/* reset */
+:root{
+   font-family: "Raleway", sans-serif;
+   font-size: 16px;
+   font-weight: 400;
+}
+
+body{
+  background-image:linear-gradient(to right, white,blue) ;
+}
+.group_scrollingBanner { 
+   position: relative;
+   width: 100%;
+   height: 20vh;
+   display: flex;
+   overflow: hidden;
+ }
+ 
+  
+ .group_scrollingBanner div {
+   position: relative;
+     width: 50%;
+   height: 70%;
+   overflow: hidden;
+ }
+ 
+ .first_column {
+   background-size: cover;
+ }
+ 
+ .first_column h2 {
+   -webkit-text-stroke: 2.5px;
+   -webkit-text-stroke-color: black;
+   left: 100%;
+   
+   
+   
+ }
+ 
+ .phrase  {
+   position: absolute;
+   white-space: nowrap;
+   font-size: 5em;
+   color: blue;
+   animation: scroll 30s 1s linear infinite;
+ }
+ @keyframes scroll {
+   0% {
+     transform: translateX(25%);
+   }
+   100% {
+     transform: translateX(-100%);
+   }
+ }
+ 
+ /*-----------------------*/
+ #by {
+   font-family: 'Arima Madurai', cursive;
+   position: fixed;
+   bottom: 0px;
+   left: 50%;
+   writing-mode: vertical-rl;
+   color: black;
+   font-size: 10px;
+ }
+
+ 
