@@ -79,4 +79,24 @@ body{
 
 
 
+
+#text{
+  position: relative;
+  font-weight: bold;
+  font-size: 49px;
+  color:red;
+}
+#text::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  right: -12px;
+  width: 3px;
+  height: 100%;
+  transition: all 5s;
+  animation: text 5s infinite;
+}
+
+ 
+
  
